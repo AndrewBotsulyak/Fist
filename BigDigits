@@ -1,0 +1,228 @@
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication155
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string num = Console.ReadLine();
+            Console.Write("\n\n");
+
+            for (int i = 0; i < num.Length; i++)
+            { 
+                Number.Draw(num[i],ref i);
+            }
+            Console.Write("\n\n");
+        }
+    }
+
+    class Number
+    {
+        static public void Draw(char numb,ref int count)
+    {
+           int n  = 2 ;
+           int interval = 7;
+            switch(numb)
+            {
+                case '0':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 000 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("0   0");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("0   0");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("0   0");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("0   0");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("0   0");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 000 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                   // count;
+                    break;
+                case '1':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  1  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 11  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  1  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  1  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  1  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  1  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 111 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '2':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 222 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("2   2");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("2  2 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  2  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 2   ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("2    ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("22222");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '3':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 333 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("3   3");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    3");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("   3 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    3");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("3   3");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 333 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '4':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    4");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  4 4");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 4  4");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("444444");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    4");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    4");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    4");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '5':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("55555");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("5    ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("5    ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("5555 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    5");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    5");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("5555 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '6':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("   6 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  6 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 6   ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("6666 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("6   6");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("6   6");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 666 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '7':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("77777");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    7");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("   7 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  7  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 7   ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("7    ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("7    ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '8':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 8888 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("8    8");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("8    8");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("  88  ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("8    8");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("8    8");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 8888 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+                case '9':
+
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 9999");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("9   9");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("9   9");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine(" 9999");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    9 ");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    9");
+                    Console.SetCursorPosition(count * interval, n++);
+                    Console.WriteLine("    9");
+                    Console.SetCursorPosition(count * interval, n++);
+                    // count;
+                    break;
+            }
+    }
+    }
+
+}
