@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication159
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string lad3 = "***";
+            char lad1 = '*';
+
+            Console.Write("Введите количество ступенек : ");
+            int Num = Convert.ToInt32(Console.ReadLine());
+
+            int x = 2;
+            int y = 1;
+
+            for(int i = 0; i < Num ; i++)
+            {
+                Console.WriteLine(lad3);
+                Console.SetCursorPosition(x+(i*2), ++y);
+                Console.WriteLine(lad1);
+                Console.SetCursorPosition(x+(i*2), ++y);
+            }
+        }
+    }
+}
